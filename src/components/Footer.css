@@ -1,0 +1,24 @@
+.footer {
+    display: inline-flex;
+    float: right;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    min-height: 6vh;
+}
+
+.footer-logo {
+    align-self: center;
+    max-height: 5vh;
+    margin-right: 3vh;
+}
+
+.instagram-logo {
+    margin-right: 6vh;
+    margin-top: 0.5vh;
+    align-self: top;
+    justify-self: top;
+}
+
+.instagram-logo:hover {
+    transition: ease-in;
+}

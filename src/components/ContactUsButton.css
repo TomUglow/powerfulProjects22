@@ -1,0 +1,26 @@
+:root {
+    --primary: #2993a7;
+  }
+  
+  .contact-us-btn {
+    padding: 8px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 32px;
+    color: #fff;
+    cursor: pointer;
+    background-color: var(--primary);
+    min-width: 20%;
+    margin-left: 40%;
+  }
+  
+  .contact-us-btn:hover {
+    padding: 6px 18px;
+    transition: all 0.3s ease-out;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 4px;
+    border: 2px solid var(--primary);
+    transition: all 0.5s ease-out;
+  }
